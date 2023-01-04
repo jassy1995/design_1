@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1c2230;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400, 700;
+}
+
+ul,
+button,
+header {
+  font-family: Raleway, sans-serif;
+  font-weight: 400, 700;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 4rem;
+  text-align: center;
+}
