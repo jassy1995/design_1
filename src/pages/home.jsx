@@ -18,7 +18,7 @@ export default function Home() {
                         <Button text='Get Started' />
 
                     </div>
-                    <div class="grid gap-[100px] grid-cols-2 grid-rows-2 mt-48 max-w-4xl">
+                    <div className="grid gap-[100px] grid-cols-2 grid-rows-2 mt-48 max-w-4xl">
                         {operations.map((operation, i) => (
                             <Operation operation={operation} key={i} />
                         ))}
@@ -31,12 +31,12 @@ export default function Home() {
                             <p className='text-start'>Securely share files and folders with friends, family and colleague for live collaboration. No email attachments required.</p>
                             <div className='flex border-b border-cyan-500 pb-1 space-x-1 items-center w-[144px] cursor-pointer'>
                                 <span className='text-cyan-500'>See how Flyo works</span>
-                                <span className='bg-cyan-500 rounded-full w-3 h-3 flex justify-center items-center'><i class="fa-sharp fa-solid fa-arrow-right flex items-center w-2 h-2 text-[10px]"></i></span>
+                                <span className='bg-cyan-500 rounded-full w-3 h-3 flex justify-center items-center'><i className="fa-sharp fa-solid fa-arrow-right flex items-center w-2 h-2 text-[10px]"></i></span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex space-x-6 mt-32">
+                    <div className="flex space-x-6 mt-32">
                         {teams.map((team, i) => (
                             <Team team={team} key={i} />
                         ))}
